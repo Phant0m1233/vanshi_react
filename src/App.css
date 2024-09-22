@@ -1,0 +1,35 @@
+.user-card {
+  width: 250px; 
+  margin: 10px; 
+  box-shadow: 0 0 10px rgba(228, 55, 55, 0.1); 
+  border-radius: 10px; 
+  padding: 20px; 
+}
+
+.user-card h2 {
+  margin-top: 0; 
+}
+
+.user-card p {
+  margin-bottom: 5px; 
+}
+
+.flex {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.box {
+  display: inline-flex; 
+  flex-direction: row; 
+  width: 500px; 
+  color: white;
+  height: 250px; 
+  background-color: #4f5e9f; 
+  border: 1px solid #ddd; 
+  padding: 25px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin: 1.5%; 
+  justify-content: left; 
+}
